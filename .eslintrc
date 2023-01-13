@@ -1,0 +1,19 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint", "prettier", "no-loops"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:@typescript-eslint/strict",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/await-thenable": "error",
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "no-loops/no-loops": 2
+  }
+}

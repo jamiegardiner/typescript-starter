@@ -1,0 +1,10 @@
+{
+  "extends": "@tsconfig/node-lts-strictest",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./src",
+    "checkJs": false,
+    "allowJs": false
+  },
+  "exclude": ["node_modules", "dist"]
+}
