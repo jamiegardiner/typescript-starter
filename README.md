@@ -2,53 +2,53 @@
 
 This is a starter project for Typescript. It includes:
 
-- Typescript
-- Jest
-- Prettier
-- ESLint
-- Husky
-- Lint-staged
-- Commitlint with Conventional Commits
+- typescript
+- pnpm
+- vitest
+- biome
+- husky
+- lint-staged
+- commitlint with Conventional Commits
 
 Install dependencies:
 
 ```bash
-npm install
+pnpm install
 ```
 
 Run tests:
 
 ```bash
-npm test
+pnpm test
 ```
 
 Run tests in watch mode:
 
 ```bash
-npm run test:watch
+pnpm test:watch
 ```
 
 Run tests with coverage:
 
 ```bash
-npm run test:coverage
+pnpm test:coverage
 ```
 
 Run lint:
 
 ```bash
-npm run lint:check
-npm run lint:fix
+pnpm lint:check
+pnpm lint
 ```
 
-Run prettier:
+Run format:
 
 ```bash
-npm run prettier:check
-npm run prettier:fix
+pnpm format:check
+pnpm format
 ```
 
-lint-staged and husky will run prettier and eslint on staged files before commit.
+lint-staged and husky will run biome on staged files before commit.
 
 # Conventional Commits
 
