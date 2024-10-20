@@ -1,8 +1,5 @@
 module.exports = {
-  "*.ts": [
-    () => "npm run test:types",
-    "npm run lint:fix",
-    "npm run format:write",
-  ],
-  "*.{js,json,md}": ["npm run format:write"],
+	"*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}": [
+		"biome check --write --no-errors-on-unmatched",
+	],
 };
