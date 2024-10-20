@@ -22,23 +22,10 @@ Run tests:
 pnpm test
 ```
 
-Run tests in watch mode:
-
-```bash
-pnpm test:watch
-```
-
 Run tests with coverage:
 
 ```bash
 pnpm test:coverage
-```
-
-Run lint:
-
-```bash
-pnpm lint:check
-pnpm lint
 ```
 
 Run format:
@@ -49,10 +36,6 @@ pnpm format
 ```
 
 lint-staged and husky will run biome on staged files before commit.
-
-# Conventional Commits
-
-This project uses [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/) for commit messages.
 
 # License
 
